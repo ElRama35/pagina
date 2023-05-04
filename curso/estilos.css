@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+#contenedor{
+    background-color: rgb(48, 48, 235);
+    padding: 20px;
+   
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: double;
+}
+
+#boton{
+    background-color: rgb(174, 0, 222);
+    color: aliceblue;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+#boton:hover{
+    background-color: rgb(222, 0, 52);
+    cursor:move;
+
+}
